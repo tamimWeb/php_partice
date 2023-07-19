@@ -10,7 +10,7 @@
 
 
  // GPA Calculator
- $marks = 32;
+//  $marks = 32;
 
 /*if($marks >= 80 && $marks <=100){
    echo 'You got A+';
@@ -37,7 +37,7 @@ elseif($marks >= 0 && $marks <=32){
 
 
 //swirch case
-switch($marks){
+/*switch($marks){
    case($marks >= 80 && $marks <=100):
       echo "You got A+";
       break;
@@ -63,9 +63,56 @@ switch($marks){
        break;
    default:
       echo "Invalid Number";
-   
-   
-}
+   }*/
+
+   /*for($i=1; $i<=100; $i++){
+      echo $i.'<br>';
+   }*/
+
+   //index array
+     
+   /* $city = array("Dhaka","Kushtia","Mymensing" );
+      // print_r($city);
+
+      echo $city[2];*/
+
+      //associative arry
+
+     /* $run = array("Tamim"=>70, "Mashrafi"=>80, "Mosfiqe"=>65);
+
+      echo $run["Mashrafi"];*/
+
+      // Multidaimentional array
+
+      /*$students = array (
+         array("shishir",25),
+         array("jony",20),
+         array("niloy",24)
+
+      )*/
+      //foreach
+     /* $city = ["Kushtia","Dhaka","Mymensing"];
+
+       echo "<ul>";
+
+       foreach($city as $value){
+         echo "<li>$value</li>";
+       }
+       echo "</ul>";*/
+
+
+       //even number print
+       /* for($i=1; $i <=1000; $i++){
+         if($i%2 !=0){
+            echo $i."<br>";
+         }
+        }*/
+
+        
+
+
+    
+
 
 
 ?>
